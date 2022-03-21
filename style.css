@@ -173,9 +173,9 @@ p {
     height: 60px;
     width: 60px;
     display: inline-block;
-    border: 3px solid white;
+    /* border: 3px solid white; */
     border-radius: 50%;
-    position: relative;
+    position: initial;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -186,13 +186,13 @@ p {
 }
 
 #header .hamburger:after {
-    position: absolute;
+    position: fixed;
     content: '';
     height: 100%;
     width: 100%;
     border-radius: 50%;
-    border: 3px solid white;
-    animation: hamburger_pulse 1s ease infinite;
+    /* border: 3px solid white; */
+    /* animation: hamburger_pulse 1s ease infinite; */
 }
 
 #header .hamburger .bar {
