@@ -306,8 +306,8 @@ p {
 
 /* End home Section */
 
-/* Services Section */
-#services .services {
+/* technologies Section */
+#technologies .technologies {
     flex-direction: column;
     text-align: center;
     max-width: 1500px;
@@ -315,12 +315,12 @@ p {
     padding: 100px 0;
 }
 
-#services .service-top {
+#technologies .service-top {
     max-width: 500px;
     margin: 0 auto;
 }
 
-#services .service-bottom {
+#technologies .service-bottom {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -329,7 +329,7 @@ p {
     
 }
 
-#services .service-item {
+#technologies .service-item {
     flex-basis: 80%;
     display: flex;
     align-items:center;
@@ -340,7 +340,7 @@ p {
     position: relative;
 }
 
-#services .service-item::after {
+#technologies .service-item::after {
     content: '';
     position: absolute;
     left: 0;
@@ -350,7 +350,7 @@ p {
     z-index: -1;
 }
 
-#services .service-bottom .icon {
+#technologies .service-bottom .icon {
     height: 70px;
     width: 70px; 
     margin-bottom: 20px;
@@ -359,25 +359,25 @@ p {
     padding: 4px;
 }
 
-#services .service-bottom .icon:hover {
+#technologies .service-bottom .icon:hover {
     background-color: white;
     border-radius: 50%;
     opacity: 1;
 }
 
-#services .service-item h2 {
+#technologies .service-item h2 {
     font-size: 2rem;
     color: white;
     margin-bottom: 10px; 
     text-transform: uppercase;
 }
 
-#services .service-item p {
+#technologies .service-item p {
     color: white;
     text-align: left;
 }
 
-/* End Services Section */
+/* End technologies Section */
 
 /* Projects section */
 #projects .projects {
@@ -687,7 +687,7 @@ p {
         justify-content: center;
         flex-direction: column;
     }
-    #services .service-bottom .service-item {
+    #technologies .service-bottom .service-item {
         flex-basis: 30%;
         margin: 2%;
     }
@@ -709,12 +709,12 @@ p {
     }
     /* End home */
 
-    /* Services Section */
-    #services .service-bottom .service-item {
+    /* technologies Section */
+    #technologies .service-bottom .service-item {
         flex-basis: 22%;
         margin: 1.5%;
     }
-    /* End Services Section */
+    /* End technologies Section */
 
     /* Project */
     #projects .all-projects {
@@ -843,7 +843,7 @@ p {
         display: none;
     }
     /* End Header */
-    #services .service-bottom .service-item {
+    #technologies .service-bottom .service-item {
         flex-basis: 22%;
         margin: 1.5%;
     }
